@@ -108,7 +108,8 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
-		 return programmer_hash[:alan_kay][:known_for] = "GUI"
+		  programmer_hash[:alan_kay][:known_for] = "GUI"
+			programmer_hash
 
 
 
@@ -130,6 +131,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-		 programmer_hash.merge[:dennis_ritchie][:languages] = "Assembly"
-		 return programmer_hash.merge[:dennis_ritchie][:languages]
+		
+		  programmer_hash[:dennis_ritchie][:languages] = "Assembly"
+			programmer_hash
 end
