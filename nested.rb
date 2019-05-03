@@ -130,5 +130,5 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-return programmer_hash.update[:dennis_ritchie][:languages] = "Assembly"
+return programmer_hash.merge[:dennis_ritchie][:languages] = "Assembly"
 end
